@@ -1,0 +1,107 @@
+/* styles.css
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background: url('assets/img/banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 50px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #007bff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    padding: 20px 0;
+    position: relative;
+}
+
+.timeline-item::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.timeline-item .timeline-content {
+    padding: 20px 30px;
+    background: #f9f9f9;
+    position: relative;
+    border-radius: 6px;
+    width: 45%;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    left: 55%;
+}
+
+.timeline-item .timeline-content::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline-item:nth-child(odd) .timeline-content::after {
+    left: 100%;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #f9f9f9;
+}
+
+.timeline-item:nth-child(even) .timeline-content::after {
+    right: 100%;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f9f9f9 transparent transparent;
+} */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
