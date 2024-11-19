@@ -227,7 +227,7 @@ hr {
 }
 
 .timeline-item.left {
-    right: 15%;
+    right: 5%;
 }
 
 .timeline-item.right {
@@ -348,5 +348,5 @@ hr {
 }
 
 .social-link:hover {
-    color: #007bff;
+    color: #aa0200;
 }
